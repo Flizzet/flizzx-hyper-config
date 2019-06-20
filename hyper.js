@@ -223,9 +223,43 @@ module.exports = {
   	box-shadow: inset 0px 0px 5px white;
   }
   .header_header, .header_headerRounded {
-  	background-color: rgba(255, 255, 255, 0.1);
   	border-bottom: 4px solid rgba(234, 136, 91, 0.25);
-  	box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.05)
+  	box-shadow: 0px 7px 0px rgba(0, 0, 0, 0.15)
+  }
+  .header_header nav:before {
+  	content: "";
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	left: 0px;
+  	top: 0px;
+  	opacity: 0.25;
+  	background-image: url('/Users/Flizzet/Desktop/WorkAssets/ProjectPromos/Flizzet/header-showcase.png');
+  	background-size: 100%;
+  }
+  .header_header nav:after {
+  	content: "";
+  	position: absolute;
+  	height: 0px;
+  	width: 90%;
+  	bottom: -4px;
+  	left: 50%;
+  	transform: translateX(-50%);
+  	border-bottom: 2px dashed rgba(255, 255, 255, 0.75);
+  	border-radius: 50%;
+  }
+  .hyper_main:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 99.48%;
+    height: 100%;
+    border: 4px solid rgba(100, 100, 100, 1.0);
+    border-bottom: none;
+    z-index: 5;
+    transform: scale(1.001);
+    pointer-events: none;
   }
 	`,
 
@@ -272,14 +306,14 @@ module.exports = {
 	borderColors: ['rgba(234, 136, 91, 1.0)', '#6c879b'],
 	borderWidth: '4px',
         borderRadiusOuter: '6px',
-	borderRadiusInner: '8px'
+	borderRadiusInner: '3px'
     },
 
     
     // opacity with hyper-opacity
     opacity: 0.75,
     opacity: {
-        focus: 0.9,
+        focus: 0.95,
         blur: 0.7
     },
 
