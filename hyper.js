@@ -100,13 +100,10 @@ module.exports = {
     animation: bounce-up-logo 0.6s forwards 1.5s 
     animation-timing-function: cubic-bezier(0.175, 0.9, 0.32, 1.1);
   }
-  .header_header {
-  	padding-top: 5px;
-  }
   .header_header:after {
   	content: "FlizzX";
   	font-family: "Corporation Games", sans-serif;
-  	font-size: 30px;
+  	font-size: 35px;
   	color: rgba(204, 106, 61, 1.0);
   	position: absolute;
   	top: 0px;
@@ -115,17 +112,17 @@ module.exports = {
   	height: 120%;
   	text-align: right;
   	text-transform: uppercase;
-  	padding: 5px 95px;
-	text-shadow:
-	-1px -1px 0 white,  
-	1px -1px 0 white,
-	-1px 1px 0 white,
-	 1px 1px 0 white,
-	-2px -2px 0 white,  
-	2px -2px 0 white,
-	-2px 2px 0 white,
-	 2px 2px 0 white,
-	0px 5px 0px rgba(104, 46, 21, 1.0);
+  	padding: 15px 95px;
+    text-shadow:
+    -1px -1px 0 white,  
+    1px -1px 0 white,
+    -1px 1px 0 white,
+      1px 1px 0 white,
+    -2px -2px 0 white,  
+    2px -2px 0 white,
+    -2px 2px 0 white,
+      2px 2px 0 white,
+    0px 5px 0px rgba(104, 46, 21, 1.0);
 	margin-top: -1px;
 	overflow: visible;
 	// background: linear-gradient(to left, rgba(0, 0, 0, 0.35) 20%, rgba(0, 0, 0, 0));
@@ -227,7 +224,7 @@ module.exports = {
   }
   .header_header, .header_headerRounded {
   	background-color: rgba(255, 255, 255, 0.1);
-  	border-bottom: 2px solid rgba(234, 136, 91, 0.4);
+  	border-bottom: 4px solid rgba(234, 136, 91, 0.25);
   	box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.05)
   }
 	`,
